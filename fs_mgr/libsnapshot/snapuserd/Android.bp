@@ -141,6 +141,7 @@ cc_binary {
         "snapuserd.rc",
     ],
     ramdisk_available: false,
+    recovery_available: true,
     vendor_ramdisk_available: true,
 }
 
