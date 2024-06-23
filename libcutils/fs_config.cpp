@@ -223,6 +223,7 @@ static const struct fs_path_config android_files[] = {
     { 00755, AID_ROOT,      AID_SHELL,     0, "system/xbin/*" },
     { 00755, AID_ROOT,      AID_SHELL,     0, "system/apex/*/bin/*" },
     { 00755, AID_ROOT,      AID_SHELL,     0, "system_ext/bin/*" },
+    { 00755, AID_ROOT,      AID_SHELL,     0, "system_ext/usr/share/lindroid/lxc/templates/*" },
     { 00755, AID_ROOT,      AID_SHELL,     0, "system_ext/apex/*/bin/*" },
     { 00755, AID_ROOT,      AID_SHELL,     0, "vendor/bin/*" },
     { 00755, AID_ROOT,      AID_SHELL,     0, "vendor/apex/*bin/*" },
